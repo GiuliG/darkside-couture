@@ -3,6 +3,7 @@
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
+
   }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -11,6 +12,7 @@ html {
   body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', Arial, sans-serif
   }
 
   body, html {
@@ -20,8 +22,8 @@ html {
   /* ---- images ---- */
 
   .section-one-img {
-      width: 50% 
-      margin-top: 10%;
+      width: 40% ;
+      margin-top: 0%;
       vertical-align: middle;
       height: auto;
   }
@@ -30,7 +32,6 @@ html {
     float: right;
     width: 40%;
     margin-top: 2%;
-    margin-right: 5%;
     vertical-align: middle;
     height: auto;
   }
@@ -50,8 +51,10 @@ html {
     display: inline-block;
     margin-top: 0%;
     margin-left: 8%;
+    margin-right: 8%;
     height:50%;
-    width: 30%;
+    width: 40%;
+
 
     
    
@@ -67,9 +70,45 @@ html {
 
   /* ---- Buttons ---- */
 
-  .CTA {
-
+  input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
   }
+
+  #email {
+    height: 1.875rem;
+    border-bottom: .0625rem solid #d8d8d8;
+    padding-bottom: .3125rem;
+    padding-top: .34375rem;
+  }
+
+  button {
+    width: 50%;
+    background: #000;
+    color: #fff;
+    border-radius: 30px;
+    margin: 3%;
+    padding: 10px;
+  }
+
+  .signup-1 {
+    color: #fff;
+  }
+
+  .signup-2 {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  #section-three button {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    margin-top: 60%;
+  }
+  
   
   /* ---- Parallax ---- */
   .parallax {
@@ -85,7 +124,6 @@ html {
   .parallax-2 {
     /*background-image: url('leia3.jpg');*/
     background-color: #100A0E;
-    height: 60%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -103,8 +141,38 @@ html {
 }
 
 
+
+#section-three p {
+   
+    position: absolute;
+    padding-top: 30%;
+    padding-right: 40%;
+    padding-left: 40%;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    width: 100%;
+  }
+
+  #section-three {
+    background-image:url("images/star-wars-portfolio-06-2017-ss06.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
 /* ---- Fonts ---- */
 
 h1 {
     color: #100A0E;
+
+    margin-left: -150px;
+    margin-top: 0px;
+    position: absolute;
+    font-size: 50px;
+    line-height: 60px;
+    top: 20px;
+    font-family: 'Roboto', Arial, sans-serif
+
 }
