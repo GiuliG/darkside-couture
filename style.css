@@ -1,0 +1,110 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body, html {
+      height: 100%;
+  }
+
+  /* ---- images ---- */
+
+  .section-one-img {
+      width: 50% 
+      margin-top: 10%;
+      vertical-align: middle;
+      height: auto;
+  }
+
+  .section-two-img {
+    float: right;
+    width: 40%;
+    margin-top: 2%;
+    margin-right: 5%;
+    vertical-align: middle;
+    height: auto;
+  }
+
+  .section-three-img {
+      width: 100%;
+      height: 80%;
+  }
+
+  /* ---- containers ---- */
+
+  .section-one-container {
+      
+    /* display: inline-block;
+    width: calc(60% - 40px);
+    vertical-align: middle; */
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 8%;
+    height:50%;
+    width: 30%;
+
+    
+   
+  }
+
+  .section-two-container {
+    display: inline-block;
+    margin-top: 30%;
+    margin-left: 8%;
+    width:30em;
+    height:18em;
+  }
+
+  /* ---- Buttons ---- */
+
+  .CTA {
+
+  }
+  
+  /* ---- Parallax ---- */
+  .parallax {
+    background-color: white; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+  .parallax-2 {
+    /*background-image: url('leia3.jpg');*/
+    background-color: #100A0E;
+    height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 0;
+}
+
+.parallax-3 {
+    /*background-image: url('leia3.jpg');*/
+    background-color: #100A0E;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* ---- Fonts ---- */
+
+h1 {
+    color: #100A0E;
+}
