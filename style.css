@@ -54,9 +54,6 @@ html {
     margin-right: 8%;
     height:50%;
     width: 40%;
-
-
-    
    
   }
 
@@ -68,6 +65,9 @@ html {
     height:18em;
   }
 
+  #section-two {
+    color: #fff;
+  }
   /* ---- Buttons ---- */
 
   input {
@@ -82,6 +82,7 @@ html {
     border-bottom: .0625rem solid #d8d8d8;
     padding-bottom: .3125rem;
     padding-top: .34375rem;
+    width: 55%;
   }
 
   button {
@@ -178,11 +179,24 @@ h1 {
 }
 
 .section-two-container h1 {
-  margin-top: 60%;
+  margin-top: 58%;
   margin-left: 10%;
   color: #fff;
 }
 
 .section-two-container span {
   font-weight: 50;
+}
+
+/* --- text --- */
+
+#section-2-text {
+  margin-left: 20%;
+  margin-top: -30%;
+  height: 40%;
+  font-size: 20px;
+}
+
+.CTA {
+  margin-top: 50px;
 }
