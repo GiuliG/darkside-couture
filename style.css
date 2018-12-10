@@ -98,6 +98,10 @@ html {
     color: #fff;
   }
 
+  .signup-1:active {
+    background-color: red;
+  }
+
   .signup-2 {
     background-color: #fff;
     color: #000;
